@@ -9,7 +9,7 @@ var x = require('casper').selectXPath;
 var links;
 var exportLinks;
 
-casper.start('http://www.basketball-reference.com/players/b/');
+casper.start('http://www.basketball-reference.com/players/c/');
 
 casper.then(function getLinks(){
      links = this.evaluate(function(){

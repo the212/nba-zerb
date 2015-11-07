@@ -2,7 +2,8 @@ import csv
 import operator
 import os
 
-path = 'players/a/'
+letter = 'c'
+path = 'players/' + letter + '/'
 for dirname in os.listdir(path):
 
 	if dirname != '.DS_Store' and dirname != '2015':
@@ -10,33 +11,38 @@ for dirname in os.listdir(path):
 		plink = path + dirname + '/gamelog/2015/gamelog.csv'
 		pname = plink.split('/')[2]
 		data = []
+		
+		try:
+			f = open(plink, 'rU')
+		except IOError:
+			print('error')
+		else:
+			with f:
+				data = [row for row in csv.reader(f)]
+				#get rid of <!-- Already CSV --> comment in data
+				csvComment = data[0]
+				header = data[1]
+				header.append('pname')
+				data = data[2:]
 
-		with open(plink, 'rU') as f:
-			data = [row for row in csv.reader(f)]
-			#get rid of <!-- Already CSV --> comment in data
-			csvComment = data[0]
-			header = data[1]
-			header.append('pname')
-			data = data[2:]
+				new_list = []
+				for row in data:
+					if row[0] != 'Rk' and row[10] != 'Did Not Play' and row[10] != 'Inactive' and row[10] != 'Player Suspended':
+						row.append(pname)
+						new_list.append(row)
 
-			new_list = []
-			for row in data:
-				if row[0] != 'Rk' and row[10] != 'Did Not Play' and row[10] != 'Inactive' and row[10] != 'Player Suspended':
-					row.append(pname)
-					new_list.append(row)
+				new_list.insert(0, header)
 
-			new_list.insert(0, header)
-
-			#print new_list
+				#print new_list
 
 
-		with open('players/a/2015/gamelogs.csv', 'a') as w:
+		with open('players/' + letter + '/2015/gamelogs.csv', 'a') as w:
 			print 'writing!'
 			writer = csv.writer(w)
 			writer.writerows(new_list)
 
 
-logs = 'players/a/2015/gamelogs.csv'
+logs = 'players/' + letter + '/2015/gamelogs.csv'
 
 with open(logs, 'rU') as l:
 	data = [row for row in csv.reader(l)]
@@ -52,7 +58,7 @@ with open(logs, 'rU') as l:
 	#print final_list
 
 
-with open('players/a/2015/gamelogs.csv', 'wb') as log:
+with open('players/2015/gamelogs' + letter + '.csv', 'wb') as log:
 	print 'final write'
 	writer = csv.writer(log)
 	writer.writerows(final_list)
