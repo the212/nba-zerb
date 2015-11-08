@@ -7,19 +7,41 @@ var casper = require('casper').create({
 });
 var x = require('casper').selectXPath;
 var links;
+var table
 var exportLinks;
 
-casper.start('http://www.basketball-reference.com/players/c/');
+var letter = 'd';
+
+casper.start('http://www.basketball-reference.com/players/' + letter + '/');
 
 casper.then(function getLinks(){
-     links = this.evaluate(function(){
+
+    links = this.evaluate(function(){
         var links = document.querySelectorAll('#players tr td strong a');
         links = Array.prototype.map.call(links,function(link){
             return 'http://www.basketball-reference.com' + link.getAttribute('href');
         });
         return links;
     });
+
 });
+
+casper.then(function(){
+
+    this.waitForSelector(x('//span[text()="CSV"]'), function () {
+        this.clickLabel('CSV', 'span');
+
+        var csvNames = this.evaluate(function() {
+            var num = $("#csv_players").html();
+            return num;
+        });
+        console.log(csvNames);
+
+        fs.write('players/'+ letter +'/names.csv', csvNames, 'w');
+
+    });
+});
+
 casper.then(function(){
 
     console.log('links: ', links);
@@ -43,11 +65,6 @@ casper.then(function(){
             });
 
         });
-
-        /*** URL SCHEMA ****
-            http://www.basketball-reference.com/players/a/anthoca01.html
-            http://www.basketball-reference.com/players/a/anthoca01/gamelog/2015/
-        *****/
 
         casper.then(function(){
 
@@ -92,6 +109,7 @@ casper.then(function(){
     });
 
 });
+
 casper.run(function(){
     this.exit();
 });
