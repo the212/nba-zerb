@@ -22,6 +22,7 @@ Project by Sebastian Soler (http://the212.co)
 
 * define 'letter' var in mapNames.py
 * run python mapNames.py
+	(might have to check for duplicate pnames caused by same purl (01, 02))
 
 -------------------------
 

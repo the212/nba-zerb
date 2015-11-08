@@ -17,6 +17,7 @@ for filename in os.listdir(path):
 with open(path + 'names.csv', 'rU') as n:
 	data = [row for row in csv.reader(n)]
 	name_list = []
+	active_names = []
 
 	csvComment = data[0]
 	header = data[1]
@@ -28,19 +29,24 @@ with open(path + 'names.csv', 'rU') as n:
 
 		if row[2] == '2015' or row[2] == '2016':
 
-			fname = row[0].lower().split(' ')[0]
-			lname = row[0].lower().split(' ')[1]
+			active_names.append(row)
 
-			purl = lname[:5] + fname[:2]
+	print active_names
 
-			#TODO: handle matching purl (need to account for purl01 and purl02)
+	for row in active_names:
+		#print row[0]
+		fname = row[0].lower().split(' ')[0]
+		lname = row[0].lower().split(' ')[1]
 
-			for i, name in enumerate(names):
-				if purl in name:
-					print purl
-					row.append(names[i])
-					name_list.append(row)
+		purl = lname[:5] + fname[:2]
 
+		#TODO: handle matching purl (need to account for purl01 and purl02)
+
+		for i, name in enumerate(names):
+			if purl in name:
+				print purl
+				row.append(names[i])
+				name_list.append(row)
 
 
 	name_list.insert(0, header)
