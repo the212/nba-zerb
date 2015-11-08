@@ -2,7 +2,7 @@ import csv
 import operator
 import os
 
-letter = 'd'
+letter = 'e'
 path = 'players/' + letter + '/'
 for dirname in os.listdir(path):
 

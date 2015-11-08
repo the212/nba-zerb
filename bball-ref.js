@@ -10,7 +10,7 @@ var links;
 var table
 var exportLinks;
 
-var letter = 'd';
+var letter = 'e';
 
 casper.start('http://www.basketball-reference.com/players/' + letter + '/');
 
@@ -45,7 +45,6 @@ casper.then(function(){
 casper.then(function(){
 
     console.log('links: ', links);
-    //TODO: Get player's position, from/to values from players/a list
 
     this.each(links,function(self,link){
 
