@@ -58,7 +58,7 @@ with open(logs, 'rU') as l:
 	#print final_list
 
 
-with open('players/2015/gamelogs' + letter + '.csv', 'wb') as log:
+with open('players/2015/logs/gamelogs' + letter + '.csv', 'wb') as log:
 	print 'final write'
 	writer = csv.writer(log)
 	writer.writerows(final_list)

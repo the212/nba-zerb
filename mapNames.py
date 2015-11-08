@@ -3,7 +3,7 @@ import operator
 import os
 
 names = []
-letter = 'd'
+letter = 'a'
 path = 'players/' + letter + '/'
 for filename in os.listdir(path):
 
@@ -40,12 +40,13 @@ with open(path + 'names.csv', 'rU') as n:
 					name_list.append(row)
 
 
+
 	name_list.insert(0, header)
 
 	#print name_list
 
 
-with open('players/2015/names' + letter + '.csv', 'wb') as log:
+with open('players/2015/names/names' + letter + '.csv', 'wb') as log:
 	print 'final write'
 	writer = csv.writer(log)
 	writer.writerows(name_list)
