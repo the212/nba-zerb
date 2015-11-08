@@ -3,7 +3,7 @@ import operator
 import os
 
 names = []
-letter = 'f'
+letter = 'g'
 path = 'players/' + letter + '/'
 for filename in os.listdir(path):
 
@@ -32,6 +32,8 @@ with open(path + 'names.csv', 'rU') as n:
 			lname = row[0].lower().split(' ')[1]
 
 			purl = lname[:5] + fname[:2]
+
+			#TODO: handle matching purl (need to account for purl01 and purl02)
 
 			for i, name in enumerate(names):
 				if purl in name:

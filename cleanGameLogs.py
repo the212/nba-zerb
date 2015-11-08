@@ -2,7 +2,7 @@ import csv
 import operator
 import os
 
-letter = 'f'
+letter = 'g'
 path = 'players/' + letter + '/'
 
 #create letter gamelogs 2015 dir
@@ -43,10 +43,10 @@ for dirname in os.listdir(path):
 
 				#print new_list
 
-		with open('players/' + letter + '/2015/gamelogs.csv', 'a') as w:
-			print 'writing!'
-			writer = csv.writer(w)
-			writer.writerows(new_list)
+			with open('players/' + letter + '/2015/gamelogs.csv', 'a') as w:
+				print 'writing!'
+				writer = csv.writer(w)
+				writer.writerows(new_list)
 
 
 logs = 'players/' + letter + '/2015/gamelogs.csv'
