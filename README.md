@@ -1,4 +1,4 @@
-## Read Me
+## Data Science NBA Daily Fantasy Sports
 
 Project by Sebastian Soler (http://the212.co)
 
