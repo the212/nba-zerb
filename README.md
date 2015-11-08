@@ -11,23 +11,23 @@ Project by Sebastian Soler (http://the212.co)
 
 * define 'letter' var in cleanGameLogs.py
 * run python cleanGameLogs.py
-	(cleans all gamelogs per 'letter' player and outputs single csv with cleaned game logs of all 'letter' players)
+- (cleans all gamelogs per 'letter' player and outputs single csv with cleaned game logs of all 'letter' players)
 
 -------------------------
 
 * run python finalGameLogs.py
-	(concats all player 'letter' gamelogs into single, clean alllogs file)
+- (concats all player 'letter' gamelogs into single, clean alllogs file)
 
 -------------------------
 
 * define 'letter' var in mapNames.py
 * run python mapNames.py
-	(might have to check for duplicate pnames caused by same purl (01, 02))
+- (might have to check for duplicate pnames caused by same purl (01, 02))
 
 -------------------------
 
 * run python finalNames.py
-	(concats all player 'letter' names into single, clean allnames file)
+- (concats all player 'letter' names into single, clean allnames file)
 
 -------------------------
 
