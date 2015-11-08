@@ -10,14 +10,13 @@ Project by Sebastian Soler (http://the212.co)
 -------------------------
 
 * define 'letter' var in cleanGameLogs.py
-* create 'players/' + letter + '/2015/gamelogs.csv' file (TODO: fix to auto create file)
-* run python cleanGameLogs.py (cleans all gamelogs per 'letter' player and outputs single csv with cleaned game logs of all 'letter' players)
+* run python cleanGameLogs.py
+	(cleans all gamelogs per 'letter' player and outputs single csv with cleaned game logs of all 'letter' players)
 
 -------------------------
 
-* empty 'players/2015/logs/alllogs.csv'
 * run python finalGameLogs.py
-* manually add gamelog header as 1st row of alllogs.csv (TODO: add header with script)
+	(concats all player 'letter' gamelogs into single, clean alllogs file)
 
 -------------------------
 
@@ -26,9 +25,8 @@ Project by Sebastian Soler (http://the212.co)
 
 -------------------------
 
-* empty 'players/2015/names/allnames.csv'
 * run python finalNames.py
-* manually add names header as 1st row of allnames.csv (TODO: add header with script)
+	(concats all player 'letter' names into single, clean allnames file)
 
 -------------------------
 
@@ -37,5 +35,7 @@ Project by Sebastian Soler (http://the212.co)
 * handle timeouts during player log scraping (currently skipping...)
 
 * automate 'letter' changes (a-z in single script run)
+
+* package.json for dev dependencies
 
 

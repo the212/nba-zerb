@@ -2,8 +2,16 @@ import csv
 import operator
 import os
 
-letter = 'e'
+letter = 'f'
 path = 'players/' + letter + '/'
+
+#create letter gamelogs 2015 dir
+if not os.path.exists('players/' + letter + '/2015/'):
+	os.makedirs('players/' + letter + '/2015/')
+#create gamelogs file
+with open('players/' + letter + '/2015/gamelogs.csv', 'wb') as log:
+	log.close()
+
 for dirname in os.listdir(path):
 
 	if dirname != '.DS_Store' and dirname != '2015':
@@ -34,7 +42,6 @@ for dirname in os.listdir(path):
 				new_list.insert(0, header)
 
 				#print new_list
-
 
 		with open('players/' + letter + '/2015/gamelogs.csv', 'a') as w:
 			print 'writing!'

@@ -10,7 +10,7 @@ var links;
 var table
 var exportLinks;
 
-var letter = 'e';
+var letter = 'f';
 
 casper.start('http://www.basketball-reference.com/players/' + letter + '/');
 
