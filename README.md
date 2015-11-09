@@ -33,9 +33,15 @@ Project by Sebastian Soler (http://the212.co)
 
 ## TO-DO
 
-* handle timeouts during player log scraping (currently skipping...)
+* Join alllogs.csv and allnames.csv to add player name, position etc.. to alllogs
 
-* automate 'letter' changes (a-z in single script run)
+* Incorporate Advanced Game Log (per player, start with casperjs... download both gamelog and advancedGameLog from player page.. join on pname?)
+
+* Handle 2016 data (has extra DFS column, that 2015 and below doesn't have... DFS = DraftKings Points)
+
+* Handle timeouts during player log scraping (currently skipping...)
+
+* Automate 'letter' changes (a-z in single script run)
 
 * package.json for dev dependencies
 
