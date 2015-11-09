@@ -33,8 +33,6 @@ Project by Sebastian Soler (http://the212.co)
 
 ## TO-DO
 
-* Join alllogs.csv and allnames.csv to add player name, position etc.. to alllogs
-
 * Incorporate Advanced Game Log (per player, start with casperjs... download both gamelog and advancedGameLog from player page.. join on pname?)
 
 * Handle 2016 data (has extra DFS column, that 2015 and below doesn't have... DFS = DraftKings Points)
