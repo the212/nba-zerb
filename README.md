@@ -5,7 +5,12 @@ Project by Sebastian Soler (http://the212.co)
 ## Data Proceedure
 
 * define 'letter' var in bball-ref.js
-* run casperjs bball-ref.js (scrapes all players and game logs for 2015 NBA season)
+* run casperjs bball-ref.js (scrapes all 'letter' players and game logs for 2015 NBA season)
+
+-------------------------
+
+* define 'letter' var in bball-ref-ad.js
+* run casperjs bball-ref-ad.js (scrapes all 'letter' players and advanced game logs for 2015 NBA season)
 
 -------------------------
 
