@@ -1,0 +1,11 @@
+<!-- ALREADYCSV -->
+Season,Age,Tm,Lg,Pos,G,GS,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,eFG%,FT,FTA,FT%,ORB,DRB,TRB,AST,STL,BLK,TOV,PF,PTS
+2012-13,23,PHI,NBA,SG,9,0,142,16,48,.333,4,16,.250,12,32,.375,.375,6,8,.750,0,14,14,15,3,6,9,7,42
+2013-14,24,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play,Did Not Play
+2014-15,25,GSW,NBA,SG,59,4,657,91,235,.387,35,109,.321,56,126,.444,.462,37,45,.822,12,61,73,48,40,12,29,54,254
+2015-16,26,ATL,NBA,SG,5,0,86,11,27,.407,3,13,.231,8,14,.571,.463,0,0,,2,6,8,5,3,4,3,6,25
+Career,,,NBA,,73,4,885,118,310,.381,42,138,.304,76,172,.442,.448,43,53,.811,14,81,95,68,46,22,41,67,321
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1 season,,GSW,NBA,,59,4,657,91,235,.387,35,109,.321,56,126,.444,.462,37,45,.822,12,61,73,48,40,12,29,54,254
+1 season,,PHI,NBA,,9,0,142,16,48,.333,4,16,.250,12,32,.375,.375,6,8,.750,0,14,14,15,3,6,9,7,42
+1 season,,ATL,NBA,,5,0,86,11,27,.407,3,13,.231,8,14,.571,.463,0,0,,2,6,8,5,3,4,3,6,25
