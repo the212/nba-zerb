@@ -1,0 +1,21 @@
+TeamID	[Key]	Active	City	Name	StadiumID	Conference	Division
+3	ATL	True	Atlanta	Hawks	3	Eastern	Southeast
+8	BKN	True	Brooklyn	Nets	8	Eastern	Atlantic
+9	BOS	True	Boston	Celtics	9	Eastern	Atlantic
+2	CHA	True	Charlotte	Hornets	2	Eastern	Southeast
+11	CHI	True	Chicago	Bulls	11	Eastern	Central
+12	CLE	True	Cleveland	Cavaliers	12	Eastern	Central
+25	DAL	True	Dallas	Mavericks	25	Western	Southwest
+20	DEN	True	Denver	Nuggets	20	Western	Northwest
+14	DET	True	Detroit	Pistons	14	Eastern	Central
+26	GS	True	Golden State	Warriors	26	Western	Pacific
+22	HOU	True	Houston	Rockets	22	Western	Southwest
+13	IND	True	Indiana	Pacers	13	Eastern	Central
+28	LAC	True	Los Angeles	Clippers	27	Western	Pacific
+27	LAL	True	Los Angeles	Lakers	27	Western	Pacific
+21	MEM	True	Memphis	Grizzlies	21	Western	Southwest
+4	MIA	True	Miami	Heat	4	Eastern	Southeast
+15	MIL	True	Milwaukee	Bucks	15	Eastern	Central
+16	MIN	True	Minnesota	Timberwolves	16	Western	Northwest
+23	NO	True	New Orleans	Pelicans	23	Western	Southwest
+6	NY	True	New York	Knicks	6	Eastern	Atlantic

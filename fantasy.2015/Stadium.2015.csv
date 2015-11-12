@@ -1,0 +1,21 @@
+StadiumID,Active,Name,Address,City,State,Zip,Country,Capacity
+3,True,Philips Arena,One Philips Dr.,Atlanta,GA,30303,USA,18118
+14,True,The Palace of Auburn Hills,Six Championship Drive,Auburn Hills,MI,48326,USA,22076
+9,True,TD Garden,100 Legends Way,Boston,MA,02114,USA,17565
+8,True,Barclays Center,620 Atlantic Ave.,Brooklyn,NY,11217,USA,18200
+2,True,Time Warner Cable Arena,330 E. Trade St.,Charlotte,NC,28202,USA,19026
+11,True,United Center,1901 W. Madison St.,Chicago,IL,60612,USA,20917
+12,True,Quicken Loans Arena,One Center Court,Cleveland,OH,44115,USA,20562
+25,True,American Airlines Center,2500 Victory Ave.,Dallas,TX,75219,USA,19200
+20,True,Pepsi Center,1000 Chopper Circle,Denver,CO,80204,USA,19155
+22,True,Toyota Center,1510 Polk St.,Houston,TX,77002,USA,18043
+13,True,Bankers Life Fieldhouse,125 S. Pennsylvania St.,Indianapolis,IN,46204,USA,18165
+27,True,Staples Center,1111 S. Figueroa St.,Los Angeles,CA,90015,USA,18997
+21,True,FedEx Forum,191 Beale St.,Memphis,TN,38103,USA,18119
+4,True,American Airlines Arena,601 Biscayne Blvd.,Miami,FL,33132,USA,19600
+15,True,BMO Harris Bradley Center,1001 N Fourth St.,Milwaukee,WI,53203,USA,19000
+16,True,Target Center,600 First Ave. North,Minneapolis,MN,55403,USA,19356
+23,True,Smoothie King Center,1501 Girod St.,New Orleans,LA,70113,USA,17188
+6,True,Madison Square Garden,Four Pennsylvania Plaza,New York,NY,10001,USA,19812
+26,True,Oracle Center,7000 Coliseum Way,Oakland,CA,94621,USA,19596
+18,True,Chesapeake Energy Arena,100 W. Reno Ave.,Oklahoma City,OK,73102,USA,18203

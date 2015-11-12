@@ -1,0 +1,21 @@
+PlayerID	SportsDataID	Status	TeamID	Team	Jersey	PositionCategory	Position	FirstName	LastName	Height	Weight	BirthDate	BirthCity	BirthState	BirthCountry	HighSchool	College	Salary	PhotoUrl	Experience
+20000438		Active	28	LAC	34	F	SF	Paul	Pierce	79	235	10/13/1977	Oakland	California			Kansas	3376000	http://static.fantasydata.com/headshots/nba/low-res/20000438.png	17
+20000439		Active	1	WAS	42	F	PF	Nene	Hilario	83	250	9/13/1982	Sao Carlos	Brazil			&nbsp;	13000000	http://static.fantasydata.com/headshots/nba/low-res/20000439.png	13
+20000440		Active	1	WAS	13	C	C	Marcin	Gortat	83	240	2/17/1984	Lodz	Poland			&nbsp;	11217391	http://static.fantasydata.com/headshots/nba/low-res/20000440.png	8
+20000441		Active	1	WAS	3	G	SG	Bradley	Beal	77	207	6/28/1993	St. Louis	Missouri			Florida	5694674	http://static.fantasydata.com/headshots/nba/low-res/20000441.png	3
+20000442		Active	1	WAS	2	G	PG	John	Wall	76	195	9/6/1990	Raleigh	North Carolina			Kentucky	15851950	http://static.fantasydata.com/headshots/nba/low-res/20000442.png	5
+20000443		Active	1	WAS	22	F	SF	Otto	Porter	80	198	6/3/1993	St. Louis	Missouri			Georgetown	4662960	http://static.fantasydata.com/headshots/nba/low-res/20000443.png	2
+20000444		Active	1	WAS	90	F	PF	Drew	Gooden	82	250	9/24/1981	Oakland	California			Kansas	3300000	http://static.fantasydata.com/headshots/nba/low-res/20000444.png	13
+20000445		Active	1	WAS	7	G	PG	Ramon	Sessions	75	190	4/11/1986	Myrtle Beach	South Carolina			Nevada	2170465	http://static.fantasydata.com/headshots/nba/low-res/20000445.png	8
+20000446		Active	6	NY	1	F	PF	Kevin	Seraphin	82	278	12/7/1989	Cayenne	France			&nbsp;	2814000	http://static.fantasydata.com/headshots/nba/low-res/20000446.png	5
+20000447		Active	24	SA	18	F	SF	Rasual	Butler	79	215	5/23/1979	Philadelphia	Pennsylvania			La Salle	947276	http://static.fantasydata.com/headshots/nba/low-res/20000447.png	13
+20000448		Inactive			1	G	PG	Will	Bynum	72	185	1/4/1983	Chicago	Illinois					http://static.fantasydata.com/headshots/nba/low-res/0.png	
+20000449		Active	1	WAS	43	F	PF	Kris	Humphries	81	235	2/6/1985	Minneapolis	Minnesota			Minnesota	4440000	http://static.fantasydata.com/headshots/nba/low-res/20000449.png	11
+20000450		Active	1	WAS	9	F	SF	Martell	Webster	79	230	12/4/1986	Edmonds	Washington			&nbsp;	5613500	http://static.fantasydata.com/headshots/nba/low-res/20000450.png	10
+20000451		Active	1	WAS	45	C	C	DeJuan	Blair	79	270	4/22/1989	Pittsburgh	Pennsylvania			Pittsburgh	2000000	http://static.fantasydata.com/headshots/nba/low-res/20000451.png	6
+20000452		Active	1	WAS	17	G	SG	Garrett	Temple	78	195	5/8/1986	Baton Rouge	Louisiana			LSU	1100602	http://static.fantasydata.com/headshots/nba/low-res/20000452.png	6
+20000453		Active	10	TOR	31	F	SF	Terrence	Ross	79	195	2/5/1991	Portland	Oregon	Oregon		Washington	3553917	http://static.fantasydata.com/headshots/nba/low-res/20000453.png	3
+20000454		Active	2	CHA	50	F	PF	Tyler	Hansbrough	81	250	11/3/1985	Columbia	Missouri			North Carolina	947276	http://static.fantasydata.com/headshots/nba/low-res/20000454.png	6
+20000455		Active	10	TOR	17	C	C	Jonas	Valanciunas	84	255	5/6/1992	Utena	Lithuania			&nbsp;	4660482	http://static.fantasydata.com/headshots/nba/low-res/20000455.png	3
+20000456		Active	10	TOR	10	G	SG	DeMar	DeRozan	79	220	8/7/1989	Compton	California			USC	10050000	http://static.fantasydata.com/headshots/nba/low-res/20000456.png	6
+20000457		Active	10	TOR	7	G	PG	Kyle	Lowry	72	205	3/25/1986	Philadelphia	Pennsylvania			Villanova	12000000	http://static.fantasydata.com/headshots/nba/low-res/20000457.png	9
