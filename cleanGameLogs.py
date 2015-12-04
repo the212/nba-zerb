@@ -2,7 +2,7 @@ import csv
 import operator
 import os
 
-letter = 'h'
+letter = 'z'
 path = 'players/' + letter + '/'
 
 #create letter gamelogs 2015 dir

@@ -3,7 +3,7 @@ import operator
 import os
 
 names = []
-letter = 'h'
+letter = 'z'
 path = 'players/' + letter + '/'
 for filename in os.listdir(path):
 
