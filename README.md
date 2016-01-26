@@ -1,6 +1,10 @@
-## Data Science NBA Daily Fantasy Sports
+## Data Science NBA Daily Fantasy Sports (2014-2015 Season)
 
 Project by Sebastian Soler (http://the212.co)
+
+## Final Submission
+
+* gameLogs.ipynb | iPython Notebook
 
 ## Data Proceedure
 
